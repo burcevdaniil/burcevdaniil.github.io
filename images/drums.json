@@ -1,0 +1,13 @@
+{
+    "drums":[
+        {"name":"YAMAHA RYDEEN RDP2F5BLACK GLITTER","price":500},
+        {"name":"Sonor 17503535 AQ2 Mart","price":600},
+        {"name":"TAMA SG52KH6-BK STAGESTAR","price":700},
+        {"name":"Sonor 17503640 AQ2 Safari","price":700},
+        {"name":"ROLAND TD-1DMK","price":800},
+        {"name":"TAMA CL52KRS-TPB","price":800},
+        {"name":"TAMA CL52KRS-PGJP","price":1000},
+        {"name":"TAMA WBS52RZBNS-NOO","price":2700},
+        {"name":"TAMA WBS52RZS-MBR","price":3000}
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "guitars":[
+        {"name":"OMEN 7 WHT3","price":700},
+        {"name":"BANSHEE MACH 6","price":700},
+        {"name":"CORSAIR BASS BLK TILT","price":800},
+        {"name":"C-4 APOCALYPSE EX","price":700},
+        {"name":"HELLRAISER C-1 BLK TILT","price":800},
+        {"name":"PT SLS ELITE BFB 1341 TILT","price":800},
+        {"name":"MA-4 BASS TILT","price":1000},
+        {"name":"SYN CUSTOM BLK SLVR","price":1100},
+        {"name":"SLS ELITE-5 EVIL TWIN LH","price":1500}
+    ]
+}

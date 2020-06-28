@@ -1,0 +1,13 @@
+{
+    "keys":[
+        {"name":"YAMAHA P-45B","price":500},
+        {"name":"CASIO CDP-S350BK","price":600},
+        {"name":"YAMAHA P-125 B","price":700},
+        {"name":"CASIO Privia PX-S1000BK","price":600},
+        {"name":"KORG B2N","price":500},
+        {"name":"ROLAND FP-30-BK","price":700},
+        {"name":"KORG D1","price":600},
+        {"name":"Yamaha DGX-660WH","price":900},
+        {"name":"KORG SV2-88","price":2500}
+    ]
+}
