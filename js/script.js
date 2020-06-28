@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-    $.getJSON("/images/guitars.json", function(data){
+    $.getJSON("/burcevdaniil.github.io/images/guitars.json", function(data){
         var arr=(data["guitars"]);
         for(i=0;i<arr.length;i++){
             $("#prg" + i).attr("src", "images/" + arr[i]["name"] + ".png");
@@ -43,7 +43,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $.getJSON("/images/keys.json", function(data){
+    $.getJSON("/burcevdaniil.github.io/images/keys.json", function(data){
         var arr=(data["keys"]);
         for(i=0;i<arr.length;i++){
             $("#prg" + (i + 9)).attr("src", "images/" + arr[i]["name"] + ".png");
@@ -54,7 +54,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $.getJSON("/images/drums.json", function(data){
+    $.getJSON("/burcevdaniil.github.io/images/drums.json", function(data){
         var arr=(data["drums"]);
         for(i=0;i<arr.length;i++){
             $("#prg" + (i + 18)).attr("src", "images/" + arr[i]["name"] + ".png");
@@ -67,7 +67,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#btn1").on("click",function(event){
         event.preventDefault();
-            $.getJSON("/images/guitars.json", function(data){
+            $.getJSON("/burcevdaniil.github.io/images/guitars.json", function(data){
                 var arr=(data["guitars"]);
                 for(i=0;i<arr.length;i++){
                 $("#prg" + i).attr("src", "images/" + arr[i]["name"] + ".png");
@@ -79,7 +79,7 @@ $(document).ready(function(){
     });
     $("#btn2").on("click",function(event){
         event.preventDefault();
-            $.getJSON("/images/keys.json", function(data){
+            $.getJSON("/burcevdaniil.github.io/images/keys.json", function(data){
                 var arr=(data["keys"]);
                 for(i=0;i<arr.length;i++){
                 $("#prg" + i).attr("src", "images/" + arr[i]["name"] + ".png");
@@ -91,7 +91,7 @@ $(document).ready(function(){
     });
     $("#btn3").on("click",function(event){
         event.preventDefault();
-            $.getJSON("/images/drums.json", function(data){
+            $.getJSON("/burcevdaniil.github.io/images/drums.json", function(data){
                 var arr=(data["drums"]);
                 for(i=0;i<arr.length;i++){
                 $("#prg" + i).attr("src", "images/" + arr[i]["name"] + ".png");
